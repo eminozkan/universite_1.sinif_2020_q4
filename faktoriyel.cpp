@@ -3,15 +3,15 @@ using namespace std;
 
 int main()
 {
-    int a,b;
+    int n;
     cout << "Faktoriyelini almak istediginiz sayiyi giriniz.";
     cin >> a;
-    b=a;
-        int toplam=1;
+    int b=a;
+        int result=1;
         while(b!=1){
-            toplam=toplam*b;
+            result=result*b;
             b=b-1;
         }
-        cout <<a<<" faktoriyel = "<<toplam;
+        cout <<a<<" faktoriyel = "<<result;
   return 0;
 }
