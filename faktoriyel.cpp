@@ -9,7 +9,7 @@ int main()
     b=a;
         int toplam=1;
         while(b!=1){
-            toplam=toplam*b--;
+            toplam=toplam*b;
             b=b-1;
         }
         cout <<a<<" faktoriyel = "<<toplam;
