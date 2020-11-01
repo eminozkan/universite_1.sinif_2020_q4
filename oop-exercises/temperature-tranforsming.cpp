@@ -21,6 +21,8 @@ int main(){
                 cin >> celsius;
                 fahren = (celsius * 9 / 5 + 32);
                 cout << "In Fahrenheit that's:" << ' ' << fahren;
+            }else{
+                cout << "You entered wrong operation number.";
             }
 
         cout << "\nDo you want to try again (y/n):";
