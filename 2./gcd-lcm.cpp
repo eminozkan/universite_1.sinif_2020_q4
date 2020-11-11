@@ -29,9 +29,9 @@ int main() {
             obeb.no2= obeb.no2 % obeb.no1;
         }
     }
-    int obebnumbers = (obeb.no1 < obeb.no2 ? obeb.no1 : obeb.no2);
+    int gcd = (obeb.no1 < obeb.no2 ? obeb.no1 : obeb.no2);
 
-    cout << "OBEB(" << startnumber.no1 << "," << startnumber.no2 << ") = " << obebnumbers << endl;
+    cout << "OBEB(" << startnumber.no1 << "," << startnumber.no2 << ") = " << gcd << endl;
 
     // OKEK
 
