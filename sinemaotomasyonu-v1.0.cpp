@@ -2,8 +2,7 @@
 #include <string>
 
 using namespace std;
-//01-001
-//02-001
+
 struct salon{
     bool isChair1Filled;
     bool isChair2Filled;
